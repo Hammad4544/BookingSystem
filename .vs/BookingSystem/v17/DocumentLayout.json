@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Hammad\\App_VS\\BookingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C420138B-B9D4-40E4-8B60-A7840F0003F5}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C420138B-B9D4-40E4-8B60-A7840F0003F5}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|solutionrelative:bookingsystem.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\dtos\\bookingdtos\\createbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\dtos\\bookingdtos\\createbookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\implementationservice\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\implementationservice\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\interfaceservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\interfaceservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Program.cs",
-              "RelativeDocumentMoniker": "BookingSystem.API\\Program.cs",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Program.cs",
-              "RelativeToolTip": "BookingSystem.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T15:23:24.139Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "BookingSystem.Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAUwEYAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "BookingSystem.API\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "BookingSystem.API\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T15:08:45.164Z",
+              "WhenOpened": "2026-04-15T13:09:45.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateBookingDto.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\DTOS\\BookingDTOS\\CreateBookingDto.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\DTOS\\BookingDTOS\\CreateBookingDto.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\DTOS\\BookingDTOS\\CreateBookingDto.cs",
+              "RelativeToolTip": "BookingSystem.Application\\DTOS\\BookingDTOS\\CreateBookingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T13:08:59.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\ImplementationService\\BookingService.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\ImplementationService\\BookingService.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\ImplementationService\\BookingService.cs",
+              "RelativeToolTip": "BookingSystem.Application\\ImplementationService\\BookingService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T13:00:48.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\InterfaceService\\IBookingService.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\InterfaceService\\IBookingService.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\InterfaceService\\IBookingService.cs",
+              "RelativeToolTip": "BookingSystem.Application\\InterfaceService\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T12:59:29.561Z",
               "EditorCaption": ""
             }
           ]

@@ -15,7 +15,7 @@ namespace BookingSystem.Domain.Entities
 
         public PlaceType Type { get; set; }
 
-        public int OwnerId { get; set; }
+        public string OwnerId { get; set; }
         public User Owner { get; set; }
 
         // Navigation

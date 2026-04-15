@@ -1,4 +1,11 @@
 
+using BookingSystem.Domain.Entities;
+using BookingSystem.Domain.InterfaceRepo;
+using BookingSystem.Infrastructure;
+using BookingSystem.Infrastructure.ImplementationRepo;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 namespace BookingSystem.API
 {
     public class Program
@@ -16,7 +23,15 @@ namespace BookingSystem.API
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
+
+            // Register repositories and unit of work
+            builder.Services.AddScoped<IBookingRepository, BookingRepository>();
+            builder.Services.AddScoped<ITimeSlotRepository, TimeSlotRepository>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             var app = builder.Build();
 

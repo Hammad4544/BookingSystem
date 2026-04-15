@@ -27,7 +27,7 @@ namespace BookingSystem.Infrastructure
         {
             base.OnModelCreating(builder);
 
-            // هنظبط العلاقات تحت 👇
+            
             builder.Entity<Booking>()
     .HasOne(b => b.User)
     .WithMany(u => u.Bookings)
@@ -48,6 +48,12 @@ namespace BookingSystem.Infrastructure
     .WithMany(p => p.Resources)
     .HasForeignKey(r => r.PlaceId);
 
+            builder.Entity<Booking>()
+.HasOne(b => b.Resource)
+.WithMany()
+.HasForeignKey(b => b.ResourceId)
+.OnDelete(DeleteBehavior.Restrict);
+
 
 
             builder.Entity<TimeSlot>()
@@ -59,7 +65,8 @@ namespace BookingSystem.Infrastructure
             builder.Entity<TimeSlot>()
     .HasOne(t => t.Booking)
     .WithOne(b => b.TimeSlot)
-    .HasForeignKey<Booking>(b => b.TimeSlotId);
+    .HasForeignKey<Booking>(b => b.TimeSlotId)
+    .OnDelete(DeleteBehavior.Restrict);
 
             builder.Entity<Payment>()
     .HasOne(p => p.Booking)
