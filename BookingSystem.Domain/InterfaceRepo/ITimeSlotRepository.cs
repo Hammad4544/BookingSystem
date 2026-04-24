@@ -11,5 +11,6 @@ namespace BookingSystem.Domain.InterfaceRepo
     {
         Task<TimeSlot?> GetByIdWithBookingAsync(int id);
         Task UpdateAsync(TimeSlot timeSlot);
+        Task<List<TimeSlot>> GetAvailableSlotsByResourceIdAsync(int resourceId);
     }
 }

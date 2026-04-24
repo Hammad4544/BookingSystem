@@ -17,6 +17,13 @@ namespace BookingSystem.Infrastructure.ImplementationRepo
 
             _context = context;
         }
+
+        public async Task<List<TimeSlot>> GetAvailableSlotsByResourceIdAsync(int resourceId)
+        {
+            return await _context.TimeSlots.Where(t=> t.ResourceId == resourceId && t.IsAvailable && t.StartTime>DateTime.UtcNow).ToListAsync();
+
+        }
+
         public async Task<TimeSlot?> GetByIdWithBookingAsync(int id)
         {
             var res = await _context.TimeSlots.Include(t=>t.Booking).FirstOrDefaultAsync(t=>t.Id==id);

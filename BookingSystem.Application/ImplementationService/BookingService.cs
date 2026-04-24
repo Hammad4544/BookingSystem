@@ -18,6 +18,22 @@ namespace BookingSystem.Application.ImplementationService
         
             _unitOfWork = unitOfWork;
         }
+
+        public async Task CancelBookingAsync(int bookingId, string userId)
+        {
+            var booking = await _unitOfWork.Bookings.GetByIdAsync(bookingId);
+            if(booking == null)
+                throw new Exception("Booking not found");
+            if(booking.UserId != userId)
+                throw new Exception("Unauthorized to cancel this booking");
+            if(booking.Status == BookingStatus.Cancelled)
+                throw new Exception("Already cancelled");
+            var solt = await _unitOfWork.TimeSlots.GetByIdWithBookingAsync(booking.TimeSlotId);
+            booking.Status = BookingStatus.Cancelled;
+            solt.IsAvailable = true;
+            await _unitOfWork.SaveChangesAsync();
+        }
+
         public async Task CreateBookingAsync(string userId, int timeSlotId)
         {
             var slot = await _unitOfWork.TimeSlots
@@ -50,6 +66,11 @@ namespace BookingSystem.Application.ImplementationService
             await _unitOfWork.Bookings.AddAsync(booking);
 
             await _unitOfWork.SaveChangesAsync();
+        }
+
+        public async Task<List<TimeSlot>> GetAvailableSlots(int resourceId)
+        {
+           return await _unitOfWork.TimeSlots.GetAvailableSlotsByResourceIdAsync(resourceId);
         }
     }
 }

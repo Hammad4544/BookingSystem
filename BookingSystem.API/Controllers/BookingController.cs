@@ -1,5 +1,6 @@
 ﻿using BookingSystem.Application.DTOS.BookingDTOS;
 using BookingSystem.Application.InterfaceService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -23,7 +24,7 @@ namespace BookingSystem.API.Controllers
         {
             try
             {
-                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); 
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 if (string.IsNullOrEmpty(userId))
                     return Unauthorized("User not authenticated");
                 await _bookingService.CreateBookingAsync(userId, createBookingDto.TimeSlotId);
@@ -33,6 +34,30 @@ namespace BookingSystem.API.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+        [HttpGet("available/{resourceId}")]
+        public async Task<IActionResult> GetAvailableSlots(int resourceId)
+        {
+            try
+            {
+                var slots = await _bookingService.GetAvailableSlots(resourceId);
+                return Ok(slots);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+        [HttpPost("cancel/{bookingId}")]
+        [Authorize]
+        public async Task<IActionResult> CancelBooking(int bookingId)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            await _bookingService.CancelBookingAsync(bookingId, userId);
+
+            return Ok("Booking Cancelled");
         }
     }
 }
