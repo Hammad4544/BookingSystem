@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "D:\\Hammad\\App_VS\\BookingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C420138B-B9D4-40E4-8B60-A7840F0003F5}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.infrastructure\\implementationrepo\\bookingexpirationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C420138B-B9D4-40E4-8B60-A7840F0003F5}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|solutionrelative:bookingsystem.infrastructure\\implementationrepo\\bookingexpirationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C420138B-B9D4-40E4-8B60-A7840F0003F5}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.infrastructure\\bookingsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C420138B-B9D4-40E4-8B60-A7840F0003F5}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|solutionrelative:bookingsystem.infrastructure\\bookingsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D4E5C03-61DE-4A5D-A354-46CE6FCA2B3C}|BookingSystem.Domain\\BookingSystem.Domain.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.domain\\bookingsystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5D4E5C03-61DE-4A5D-A354-46CE6FCA2B3C}|BookingSystem.Domain\\BookingSystem.Domain.csproj|solutionrelative:bookingsystem.domain\\bookingsystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\implementationservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\implementationservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.api\\bookingsystem.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\bookingsystem.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\interfaceservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\interfaceservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\bookingsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\bookingsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\dtos\\authdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\implementationservice\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\implementationservice\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.application\\interfaceservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED66FA7B-927C-49B3-ABFF-ABF205DAC695}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\interfaceservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|d:\\hammad\\app_vs\\bookingsystem\\bookingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A6C50D3-54EA-4113-8EB3-BFA36B171B17}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingExpirationService.cs",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Infrastructure\\ImplementationRepo\\BookingExpirationService.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\ImplementationRepo\\BookingExpirationService.cs",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Infrastructure\\ImplementationRepo\\BookingExpirationService.cs",
-              "RelativeToolTip": "BookingSystem.Infrastructure\\ImplementationRepo\\BookingExpirationService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "BookingSystem.API\\Program.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Program.cs",
+              "RelativeToolTip": "BookingSystem.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T13:12:51.075Z",
+              "WhenOpened": "2026-05-15T09:30:16.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookingSystem.Infrastructure",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj",
-              "RelativeToolTip": "BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-24T13:09:55.29Z",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BookingSystem.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BookingSystem.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:26:01.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BookingSystem.Domain",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Domain\\BookingSystem.Domain.csproj",
-              "RelativeDocumentMoniker": "BookingSystem.Domain\\BookingSystem.Domain.csproj",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Domain\\BookingSystem.Domain.csproj",
-              "RelativeToolTip": "BookingSystem.Domain\\BookingSystem.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-24T13:12:14.362Z",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\ImplementationService\\AuthService.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\ImplementationService\\AuthService.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\ImplementationService\\AuthService.cs",
+              "RelativeToolTip": "BookingSystem.Application\\ImplementationService\\AuthService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:10:57.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BookingSystem.API",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\BookingSystem.API.csproj",
-              "RelativeDocumentMoniker": "BookingSystem.API\\BookingSystem.API.csproj",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\BookingSystem.API.csproj",
-              "RelativeToolTip": "BookingSystem.API\\BookingSystem.API.csproj",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-24T13:12:08.887Z",
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\InterfaceService\\IAuthService.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\InterfaceService\\IAuthService.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\InterfaceService\\IAuthService.cs",
+              "RelativeToolTip": "BookingSystem.Application\\InterfaceService\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:09:39.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BookingSystem.Application",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\BookingSystem.Application.csproj",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\BookingSystem.Application.csproj",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\BookingSystem.Application.csproj",
-              "RelativeToolTip": "BookingSystem.Application\\BookingSystem.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-24T13:12:01.875Z",
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\DTOS\\AuthDTOS\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\DTOS\\AuthDTOS\\LoginDto.cs",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\DTOS\\AuthDTOS\\LoginDto.cs",
+              "RelativeToolTip": "BookingSystem.Application\\DTOS\\AuthDTOS\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:08:39.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "BookingSystem.API\\Controllers\\BookingController.cs",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "BookingSystem.API\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAmwDkAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:24:17.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\ImplementationService\\BookingService.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\ImplementationService\\BookingService.cs",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\ImplementationService\\BookingService.cs",
-              "RelativeToolTip": "BookingSystem.Application\\ImplementationService\\BookingService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:22:37.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\InterfaceService\\IBookingService.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\InterfaceService\\IBookingService.cs",
-              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.Application\\InterfaceService\\IBookingService.cs",
-              "RelativeToolTip": "BookingSystem.Application\\InterfaceService\\IBookingService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:21:55.461Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "BookingSystem.API\\appsettings.json",
+              "ToolTip": "D:\\Hammad\\App_VS\\BookingSystem\\BookingSystem.API\\appsettings.json",
+              "RelativeToolTip": "BookingSystem.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-15T09:03:58.635Z",
               "EditorCaption": ""
             },
             {
